@@ -1,0 +1,17 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#login{
+    height: 100vh;
+}
+body{
+    background-color: black;
+}
+#login form{
+    background-color: #ab226d;
+}
+#login .btn{
+ background-color: #ebc100;
+}
