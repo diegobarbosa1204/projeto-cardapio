@@ -8,6 +8,8 @@
 }
 #bodylogin{
     background-color: black;
+    align-items: center;
+    
 }
 #login form{
     background-color: #ab226d;
