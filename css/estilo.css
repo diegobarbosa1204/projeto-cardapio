@@ -7,11 +7,30 @@
     height: 100vh;
 }
 body{
-    background-color: black;
+    background-image: url(../img/WhatsApp\ Image\ 2023-02-24\ at\ 21.09.47.jpeg);
+        background-position: center;
+        background-size: cover;
+
 }
 #login form{
-    background-color: #ab226d;
+    background-color: #c80d66;
+    
 }
 #login .btn{
- background-color: #ebc100;
+    color: #c80d66;
+ background-color:white;
+}
+#login .btn:hover{
+    background-color: black;
+}
+#logo{
+    display: block;
+margin:0 auto 0 auto;
+border-radius: 30px;
+padding: 2vh;
+}
+h3{
+    text-align: center;
+    color: #c80d66;
+    background-color: black;
 }
