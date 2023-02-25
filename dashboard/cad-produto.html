@@ -4,64 +4,88 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
-    <link rel="stylesheet" href="../css/cad-produtos.css">
-    <title>cadastro de produto</title>
+    <title>Cadastro de Produtos</title>
+    <link rel="stylesheet" href="../css/estilo.css">
 </head>
-<body>
-    <div>
-        <h1 class="display-1">cadastro de produto</h1>
-    </div>
+<body id="bodyProdutos">
+    <header>
+        <h1>Cadasto de Produtos</h1> 
 
-    <main class="cadastro">
-        <form class="row g-3">
-            <div class="col-md-6">
-              <label for="inputEmail4" class="form-label">Nome do prduto</label>
-              <input type="email" class="form-control" id="inputEmail4">
-            </div>
-            <div class="col-md-6">
-              <label for="inputPassword4" class="form-label">Código</label>
-              <input type="password" class="form-control" id="inputPassword4">
-            </div>
-            <div class="col-12">
-              <label for="inputAddress" class="form-label">Descrição do produto</label>
-              <input type="text" class="form-control" id="inputAddress" placeholder="">
-            </div>
-            <div class="col-12">
-              <label for="inputAddress2" class="form-label"></label>
-              <input type="text" class="form-control" id="inputAddress2" placeholder="">
-            </div>
-            <div class="col-md-6">
-              <label for="inputCity" class="form-label">Quantidade</label>
-              <input type="text" class="form-control" id="inputCity">
-            </div>
-            <div class="col-md-4">
-              <label for="inputState" class="form-label">Categorias</label>
-              <select id="inputState" class="form-select">
-                <option selected>....</option>
-                <option>Comidas</option>
-                <option>Bebidas</option>
-                <option>Bebidas Alcóolicas</option>
-                <option></option>
-              </select>
-            </div>
-            <div class="col-md-2">
-              <label for="inputZip" class="form-label">Preço</label>
-              <input type="text" class="form-control" id="inputZip" placeholder="R$">
-            </div>
-            <!-- <div class="col-12">
-              <div class="form-check">
-                <input class="form-check-input" type="checkbox" id="gridCheck">
-                <label class="form-check-label" for="gridCheck">
-                </label>
-              </div> -->
-            </div>
-            <div class="col-12">
-              <button type="submit" class="btn btn-primary">Cadastra</button>
-            </div>
-          </form>
+    </header>
+    <main>
+        <button type="button" class="button blue">Cadastrar Produtos</button>
+        <table class="records">
+            <thead>
+                <tr>
+                    <th>Codigo</th>
+                    <th>Produto</th>
+                    <th>Preço</th>
+                    <th>Categoria</th>
+                    <th>Ação</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>01</td>
+                    <td>Coxinha</td>
+                    <td>5.00</td>
+                    <td>Salgados</td>
+                    <td>
+                        <button type="button" class="button green">Editar</button>
+                        <button type="button" class="button red">Excluir</button>
+                    </td>
+                    
+                </tr>
+                <tr>
+                    <td>02</td>
+                    <td>Croissant</td>
+                    <td>5.00</td>
+                    <td>Salgados</td>
+                    <td>
+                        <button type="button" class="button green">Editar</button>
+                        <button type="button" class="button red">Excluir</button>
+                    </td>
+                    
+                </tr>
+                <tr>
+                    <td>03</td>
+                    <td>Risole de Carne</td>
+                    <td>5.00</td>
+                    <td>Salgados</td>
+                    <td>
+                        <button type="button" class="button green">Editar</button>
+                        <button type="button" class="button red">Excluir</button>
+                    </td>
+                    
+                </tr>
+                <tr>
+                    <td>04</td>
+                    <td>Refrigerante Lata</td>
+                    <td>4.00</td>
+                    <td>Bebidas</td>
+                    <td>
+                        <button type="button" class="button green">Editar</button>
+                        <button type="button" class="button red">Excluir</button>
+                    </td>
+                    
+                </tr>
+                <tr>
+                    <td>05</td>
+                    <td>Suco de laranja</td>
+                    <td>6.00</td>
+                    <td>Bebidas</td>
+                    <td>
+                        <button type="button" class="button green">Editar</button>
+                        <button type="button" class="button red">Excluir</button>
+                    </td>
+                    
+                </tr>
+            </tbody>
+        </table>
     </main>
-
+    <footer>
+        footer 
+    </footer>
     
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script> 
