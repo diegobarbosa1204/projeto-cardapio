@@ -3,6 +3,16 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+#itens{
+    background-color: #ab226d;
+    color: white;
+}
+
+h5{
+    color: #ab226d;
+}
+
 #login{
     height: 100vh;
 }
@@ -24,7 +34,7 @@
     
 }
 header{
-    background-color: #ab226d;
+    background-color: #ffffff;
     color: white;
     height: 70px;
     text-align: center;
