@@ -1,0 +1,145 @@
+* {
+    box-sizing: border-box;
+}
+html {
+    scroll-behavior: smooth;
+}
+
+#logodc {
+    margin-bottom: 0px;
+    background-image: url("../img/fundo.jpg");
+    background-position: center;
+    background-size: cover;
+    overflow: hidden;
+    padding-bottom: 0px;
+}
+
+.logo {
+    width: 200px;
+    height: 200px;
+    margin: 50px auto 0 auto;
+    display: block;
+    border-radius: 15%;
+}
+
+p {
+    color: whitesmoke;
+    margin-left: 70px;
+}
+
+.logo + p{
+    text-align: center;
+    font-size: larger;
+    margin: 0;
+    margin-top: 18px;
+}
+
+h1 {
+    color: whitesmoke;
+    padding: 0 10px;
+    background: #d6086f;
+    width: fit-content;
+}
+
+body {
+    height: 2530px;
+    width: 1460px;
+    display: inline-block;
+    text-align: center;
+    background-color: #080808;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+}
+
+.imagembt {
+    background-color: whitesmoke;
+    padding: 5px 5px;
+    height: 45px;
+    width: 45px;
+    margin-bottom: 8px;
+}
+
+.button {
+    background-color: #d6086f;
+    border: solid 3px whitesmoke;
+    color: white;
+    padding: 17px 32px;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    margin: 10px 2px 2px 2px;
+    cursor: pointer;
+    margin-right: 36px;
+}
+
+.button:hover{
+    font-size: 16px;
+    border: outset 7px #d6086f;
+    padding: 9px 28px;
+    background-color: #080808;
+    color: #d6086f;
+}
+
+#botao {
+    background: #1c1c1c;
+    padding-top: 7px;
+    padding-bottom: 6px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+hr {
+    margin-bottom: 35px;
+}
+
+#itens0 {
+    text-align: start;
+    margin-bottom: 90px;
+    margin-left: 20px;
+    min-height: 35vh;
+}
+
+#itens1 {
+    text-align: start;
+    margin-bottom: 90px;
+    margin-left: 20px;
+    min-height: 35vh;
+}
+
+#itens2 {
+    text-align: start;
+    margin-bottom: 90px;
+    margin-left: 20px;
+    min-height: 35vh;
+}
+
+#itens3 {
+    text-align: start;
+    margin-bottom: 90px;
+    margin-left: 20px;
+    min-height: 35vh;
+}
+
+#itens4 {
+    text-align: start;
+    margin-bottom: 90px;
+    margin-left: 20px;
+    min-height: 35vh;
+}
+
+.cima {
+    background-color: #1c1c1c;
+    color: whitesmoke;
+    border: dashed 3px #d6086f;
+    padding: 12px 15px 12px 15px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+footer {
+    color: whitesmoke;
+    text-align: center;
+    margin-top: 200px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
